@@ -157,8 +157,8 @@ var can = document.getElementById("canvas1");
 var ctx = can.getContext("2d");
 
 // canvas width and height
-can.width = 1920;
-can.height = 1080;
+can.width = screen.width;
+can.height = screen.height;
 
 // create an image element
 var img = new Image();
